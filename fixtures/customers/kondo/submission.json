@@ -1,0 +1,23 @@
+{
+  "businessName": "Kondo Capital",
+  "useCase": "SaaS billing settlements for South African customers",
+  "primaryContact": {
+    "name": "Lebo Modise",
+    "role": "Head of Engineering",
+    "email": "lebo@kondocapital.example"
+  },
+  "requestedGoLiveDate": "2026-08-15",
+  "submittedAt": "2026-06-04T13:20:00Z",
+  "launchPlan": [
+    { "country": "ZA", "channelType": "bank", "direction": "send" },
+    { "country": "ZA", "channelType": "bank", "direction": "receive" }
+  ],
+  "selfAttestations": {
+    "productionStaticIps": ["54.220.13.40"],
+    "requestedKeyScope": "send+receive read-only (no settlement)",
+    "topUpStablecoin": "USDT",
+    "topUpNetwork": "TRC20",
+    "topUpTxHash": "TRc7e8…b91d (sandbox treasury test)",
+    "kycTierPlan": "Full KYC for all transactions"
+  }
+}

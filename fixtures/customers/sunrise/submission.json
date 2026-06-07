@@ -1,0 +1,28 @@
+{
+  "businessName": "Sunrise Remit",
+  "useCase": "Cross-border remittances (diaspora payouts + local collections)",
+  "primaryContact": {
+    "name": "Adaeze Okafor",
+    "role": "Head of Engineering",
+    "email": "adaeze@sunriseremit.example"
+  },
+  "requestedGoLiveDate": "2026-07-01",
+  "submittedAt": "2026-06-07T10:14:00Z",
+  "launchPlan": [
+    { "country": "NG", "channelType": "bank", "direction": "send", "notesNotTested": "Exercised with Manual Input network only. GTBank, Access, Zenith not routed through in sandbox." },
+    { "country": "NG", "channelType": "bank", "direction": "receive" },
+    { "country": "UG", "channelType": "momo", "direction": "send", "notesNotTested": "Tested via MTN only. Airtel Money network not exercised." },
+    { "country": "UG", "channelType": "momo", "direction": "receive" },
+    { "country": "TZ", "channelType": "bank", "direction": "send" },
+    { "country": "TZ", "channelType": "bank", "direction": "receive" },
+    { "country": "GH", "channelType": "momo", "direction": "send" }
+  ],
+  "selfAttestations": {
+    "productionStaticIps": ["52.18.244.17", "52.18.244.18"],
+    "requestedKeyScope": "send+receive (no settlement)",
+    "topUpStablecoin": "USDC",
+    "topUpNetwork": "BASE",
+    "topUpTxHash": "0x9c2a…4f7e (sandbox treasury test)",
+    "kycTierPlan": "Full KYC for all transactions"
+  }
+}

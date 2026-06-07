@@ -1,0 +1,180 @@
+[
+  {
+    "id": "0d4f8c10-3a26-4e9d-9c1b-22d7c4e51001",
+    "sequenceId": "sunrise-ng-send-001",
+    "direction": "send",
+    "country": "NG",
+    "channelType": "bank",
+    "channelId": "fe8f4989-3bf6-41ca-9621-ffe2bc127569",
+    "destinationAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-21T09:14:00Z",
+    "amountUsd": 12.50,
+    "recipient": {
+      "name": "Chinedu Okeke",
+      "country": "NG",
+      "idType": "NIN",
+      "idNumber": "12345678901"
+    }
+  },
+  {
+    "id": "0d4f8c10-3a26-4e9d-9c1b-22d7c4e51002",
+    "sequenceId": "sunrise-ng-send-002",
+    "direction": "send",
+    "country": "NG",
+    "channelType": "bank",
+    "channelId": "fe8f4989-3bf6-41ca-9621-ffe2bc127569",
+    "destinationAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-21T09:32:00Z",
+    "amountUsd": 12.50,
+    "recipient": {
+      "name": "Chinedu Okeke",
+      "country": "NG",
+      "idType": "NIN",
+      "idNumber": "12345678901"
+    }
+  },
+  {
+    "id": "7e2b9145-86d2-4831-a4f7-9b0c2e110100",
+    "sequenceId": "sunrise-ng-recv-001",
+    "direction": "receive",
+    "country": "NG",
+    "channelType": "bank",
+    "channelId": "af944f0c-ba70-47c7-86dc-1bad5a6ab4e4",
+    "sourceAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-22T11:02:00Z",
+    "amountUsd": 25.00,
+    "sender": {
+      "name": "Funmi Adebayo",
+      "country": "NG",
+      "idType": "NIN",
+      "idNumber": "98765432109",
+      "additionalIdType": "BVN",
+      "additionalIdNumber": "22233344455"
+    }
+  },
+  {
+    "id": "7e2b9145-86d2-4831-a4f7-9b0c2e110101",
+    "sequenceId": "sunrise-ng-recv-002",
+    "direction": "receive",
+    "country": "NG",
+    "channelType": "bank",
+    "channelId": "af944f0c-ba70-47c7-86dc-1bad5a6ab4e4",
+    "sourceAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-22T11:24:00Z",
+    "amountUsd": 25.00,
+    "sender": {
+      "name": "Funmi Adebayo",
+      "country": "NG",
+      "idType": "NIN",
+      "idNumber": "98765432109",
+      "additionalIdType": "BVN",
+      "additionalIdNumber": "22233344455"
+    }
+  },
+  {
+    "id": "c12d5e87-1b4a-4c9e-8d33-4a5e7b9c2001",
+    "sequenceId": "sunrise-ug-send-001",
+    "direction": "send",
+    "country": "UG",
+    "channelType": "momo",
+    "channelId": "e573694c-d9d2-4511-8dec-aa633baf19f3",
+    "destinationAccountNumber": "+2561111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-23T13:48:00Z",
+    "amountUsd": 18.00
+  },
+  {
+    "id": "c12d5e87-1b4a-4c9e-8d33-4a5e7b9c2002",
+    "sequenceId": "sunrise-ug-send-002",
+    "direction": "send",
+    "country": "UG",
+    "channelType": "momo",
+    "channelId": "e573694c-d9d2-4511-8dec-aa633baf19f3",
+    "destinationAccountNumber": "+2560000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-23T14:02:00Z",
+    "amountUsd": 18.00
+  },
+  {
+    "id": "35a8f2b1-09c5-47f0-bd2e-6e3f8a1d5100",
+    "sequenceId": "sunrise-ug-recv-001",
+    "direction": "receive",
+    "country": "UG",
+    "channelType": "momo",
+    "channelId": "e167def0-c4f0-46e2-aaa9-50046f13b0a7",
+    "sourceAccountNumber": "+2561111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-24T08:30:00Z",
+    "amountUsd": 40.00
+  },
+  {
+    "id": "35a8f2b1-09c5-47f0-bd2e-6e3f8a1d5101",
+    "sequenceId": "sunrise-ug-recv-002",
+    "direction": "receive",
+    "country": "UG",
+    "channelType": "momo",
+    "channelId": "e167def0-c4f0-46e2-aaa9-50046f13b0a7",
+    "sourceAccountNumber": "+2560000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-24T08:51:00Z",
+    "amountUsd": 40.00
+  },
+  {
+    "id": "9b6c41ea-da37-4b18-94e6-1c8f2a0d3001",
+    "sequenceId": "sunrise-tz-send-001",
+    "direction": "send",
+    "country": "TZ",
+    "channelType": "bank",
+    "channelId": "12b6d583-b5ad-440f-8185-02c67259b17d",
+    "destinationAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-26T10:10:00Z",
+    "amountUsd": 30.00
+  },
+  {
+    "id": "4e7d2a85-c019-4f6b-a3d1-8b5e6c1a4100",
+    "sequenceId": "sunrise-tz-recv-001",
+    "direction": "receive",
+    "country": "TZ",
+    "channelType": "bank",
+    "channelId": "fc7a5bc2-9100-473e-8c01-df563494ee73",
+    "sourceAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-26T11:42:00Z",
+    "amountUsd": 30.00
+  },
+  {
+    "id": "4e7d2a85-c019-4f6b-a3d1-8b5e6c1a4101",
+    "sequenceId": "sunrise-tz-recv-002",
+    "direction": "receive",
+    "country": "TZ",
+    "channelType": "bank",
+    "channelId": "fc7a5bc2-9100-473e-8c01-df563494ee73",
+    "sourceAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-26T11:58:00Z",
+    "amountUsd": 30.00
+  },
+  {
+    "id": "0d4f8c10-3a26-4e9d-9c1b-22d7c4e51003",
+    "sequenceId": "sunrise-ng-send-003",
+    "direction": "send",
+    "country": "NG",
+    "channelType": "bank",
+    "channelId": "fe8f4989-3bf6-41ca-9621-ffe2bc127569",
+    "destinationAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-06-01T15:22:00Z",
+    "amountUsd": 50.00,
+    "recipient": {
+      "name": "Olumide Bakare",
+      "country": "NG",
+      "idType": "NIN",
+      "idNumber": "55566677788"
+    }
+  }
+]

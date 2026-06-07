@@ -1,0 +1,80 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4a01-9001-1c2d3e4f5a01",
+    "sequenceId": "kondo-za-abp-send-001",
+    "direction": "send",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "81018280-e320-4c81-9b2f-6f636c2239d8",
+    "destinationAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-18T09:10:00Z",
+    "amountUsd": 240.00,
+    "recipient": { "name": "Themba Khoza", "country": "ZA", "idType": "license", "idNumber": "9904015101081" }
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4a01-9001-1c2d3e4f5a02",
+    "sequenceId": "kondo-za-abp-send-002",
+    "direction": "send",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "81018280-e320-4c81-9b2f-6f636c2239d8",
+    "destinationAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-18T09:36:00Z",
+    "amountUsd": 240.00,
+    "recipient": { "name": "Themba Khoza", "country": "ZA", "idType": "license", "idNumber": "9904015101081" }
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4b02-9002-2d3e4f5a6b01",
+    "sequenceId": "kondo-za-eft-send-001",
+    "direction": "send",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "5c2736d2-baa4-4712-b79f-1f20236fc1c9",
+    "destinationAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-19T11:14:00Z",
+    "amountUsd": 175.00,
+    "recipient": { "name": "Sipho Nkosi", "country": "ZA", "idType": "license", "idNumber": "8508211234080" }
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4b02-9002-2d3e4f5a6b02",
+    "sequenceId": "kondo-za-eft-send-002",
+    "direction": "send",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "5c2736d2-baa4-4712-b79f-1f20236fc1c9",
+    "destinationAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-19T11:42:00Z",
+    "amountUsd": 175.00,
+    "recipient": { "name": "Sipho Nkosi", "country": "ZA", "idType": "license", "idNumber": "8508211234080" }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c03-9003-3e4f5a6b7c01",
+    "sequenceId": "kondo-za-eft-recv-001",
+    "direction": "receive",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "643d2ec2-16ee-48e2-ad8c-4f095cdd55d2",
+    "sourceAccountNumber": "1111111111",
+    "terminalStatus": "COMPLETE",
+    "createdAt": "2026-05-20T14:08:00Z",
+    "amountUsd": 410.00,
+    "sender": { "name": "Nomvula Mabaso", "country": "ZA", "idType": "license", "idNumber": "9001245098083" }
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c03-9003-3e4f5a6b7c02",
+    "sequenceId": "kondo-za-eft-recv-002",
+    "direction": "receive",
+    "country": "ZA",
+    "channelType": "bank",
+    "channelId": "643d2ec2-16ee-48e2-ad8c-4f095cdd55d2",
+    "sourceAccountNumber": "0000000000",
+    "terminalStatus": "FAILED",
+    "createdAt": "2026-05-20T14:31:00Z",
+    "amountUsd": 410.00,
+    "sender": { "name": "Nomvula Mabaso", "country": "ZA", "idType": "license", "idNumber": "9001245098083" }
+  }
+]

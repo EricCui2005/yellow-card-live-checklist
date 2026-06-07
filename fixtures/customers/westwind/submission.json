@@ -1,0 +1,29 @@
+{
+  "businessName": "Westwind Payments",
+  "useCase": "Pan-African mobile money agent network",
+  "primaryContact": {
+    "name": "Kojo Mensah",
+    "role": "Engineering Lead",
+    "email": "kojo@westwindpay.example"
+  },
+  "requestedGoLiveDate": "2026-09-01",
+  "submittedAt": "2026-06-06T16:45:00Z",
+  "launchPlan": [
+    { "country": "UG", "channelType": "momo", "direction": "send" },
+    { "country": "UG", "channelType": "momo", "direction": "receive" },
+    { "country": "RW", "channelType": "momo", "direction": "send" },
+    { "country": "RW", "channelType": "momo", "direction": "receive" },
+    { "country": "ML", "channelType": "momo", "direction": "send" },
+    { "country": "SN", "channelType": "momo", "direction": "send" },
+    { "country": "CI", "channelType": "momo", "direction": "send" },
+    { "country": "CI", "channelType": "momo", "direction": "receive" }
+  ],
+  "selfAttestations": {
+    "productionStaticIps": ["3.123.45.10", "3.123.45.11"],
+    "requestedKeyScope": "send + receive (full)",
+    "topUpStablecoin": "PYUSD",
+    "topUpNetwork": "ERC20",
+    "topUpTxHash": "0x4b81…d2a3 (sandbox treasury test)",
+    "kycTierPlan": "Full KYC for all transactions"
+  }
+}
