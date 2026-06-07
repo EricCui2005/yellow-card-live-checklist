@@ -2,7 +2,7 @@
 
 A reviewer-facing dashboard that auto-assembles a go-live sign-off packet from a customer's submitted launch plan and their sandbox transaction history.
 
-This is an example project exploring an idea surfaced while reading the [Yellow Card](https://yellowcard.io) developer docs: the "Going Live" checklist requires a human reviewer to look at sandbox transaction evidence before issuing live credentials, but the artifact collection is currently manual. This project sketches what a self-serve dashboard for the **reviewer side** of that flow could look like — the page a Yellow Card engineer would open once a customer says "we're ready."
+This is an example project exploring an idea surfaced while reading the [Yellow Card](https://docs.yellowcard.engineering/) developer docs: the "Going Live" checklist requires a human reviewer to look at sandbox transaction evidence before issuing live credentials, but the artifact collection is currently manual. This project sketches what a self-serve dashboard for the **reviewer side** of that flow could look like — the page a Yellow Card engineer would open once a customer says "we're ready."
 
 > [!IMPORTANT]
 > **This is a demo built against mocked JSON fixtures.** A live deployment would query the customer's sandbox API (channels catalog + transaction history) using their sandbox credentials. The mocked-data disclaimer is rendered prominently at the top of every page so the demo can be evaluated end-to-end without a live sandbox connection.
