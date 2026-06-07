@@ -425,19 +425,27 @@ function Section({
           userSelect: "none",
         }}
       >
-        <span
+        <svg
           aria-hidden
-          style={{
-            display: "inline-block",
-            width: 12,
-            color: "var(--yc-yellow)",
-            fontSize: 10,
-            transition: "transform 0.15s",
-          }}
           className="section-chevron"
+          width="18"
+          height="18"
+          viewBox="0 0 16 16"
+          style={{
+            color: "var(--yc-yellow)",
+            flexShrink: 0,
+            transition: "transform 0.22s cubic-bezier(0.4, 0, 0.2, 1)",
+          }}
         >
-          ▸
-        </span>
+          <path
+            d="M6 3.5l5 4.5-5 4.5"
+            stroke="currentColor"
+            strokeWidth="2.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+        </svg>
         <h2
           style={{
             fontSize: 16,

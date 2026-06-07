@@ -45,5 +45,9 @@ html, body {
 
 details > summary { list-style: none; }
 details > summary::-webkit-details-marker { display: none; }
-details[open] .section-chevron { transform: rotate(90deg); }
+.section-chevron { transform-origin: 50% 50%; }
+details[open] > summary .section-chevron { transform: rotate(90deg); }
 details > summary:hover h2 { color: var(--yc-yellow-soft); }
+details > summary:hover .section-chevron { color: var(--yc-yellow-soft); }
+details > summary:active .section-chevron { transform: scale(0.92) rotate(0deg); }
+details[open] > summary:active .section-chevron { transform: scale(0.92) rotate(90deg); }
